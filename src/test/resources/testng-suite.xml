@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Web Service tests" parallel="methods" thread-count="3">
+    <test name="Web Service tests">
+        <classes>
+            <class name="com.epam.webservices.demo.tests.RestAssuredTests" />
+        </classes>
+    </test>
+</suite>
